@@ -1,7 +1,7 @@
 ## Returns a list of functions to get and set
 ## the values of a matrix and its inverse
 makeCacheMatrix <- function(x = matrix()) {
-    # inv will store the cached inverse matrix
+    # invMatrix will store the cached inverse matrix
     invMatrix <- NULL
 
     # Sets the value of the matrix
